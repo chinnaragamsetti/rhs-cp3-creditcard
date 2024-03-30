@@ -27,6 +27,8 @@ export const LeftSubCont = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+
+  background-size: cover;
   background-image: url('https://assets.ccbp.in/frontend/hooks/credit-card-bg.png');
 `
 
@@ -47,11 +49,15 @@ export const LeftName = styled.p`
   color: #ffffff;
   width: 100%;
   display: flex;
+  white-space: normal;
 `
 
 export const LeftPara = styled.p`
   font-size: 15px;
   color: #ffffff;
+  overflow: hidden; /* Hide any content that overflows the container */
+  white-space: normal;
+  text-align: start;
 `
 
 export const RightCont = styled.div`
