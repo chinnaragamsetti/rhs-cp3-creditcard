@@ -42,6 +42,8 @@ export const LeftNumber = styled.p`
   font-size: 25px;
   color: #ffffff;
   font-weight: bold;
+  overflow-x: auto;
+  width: inherit;
 `
 
 export const LeftName = styled.p`
@@ -50,6 +52,8 @@ export const LeftName = styled.p`
   width: 100%;
   display: flex;
   white-space: normal;
+  overflow-x: auto;
+  width: inherit;
 `
 
 export const LeftPara = styled.p`
@@ -57,7 +61,7 @@ export const LeftPara = styled.p`
   color: #ffffff;
   overflow: hidden; /* Hide any content that overflows the container */
   white-space: normal;
-  text-align: start;
+  line-height: 1.33;
 `
 
 export const RightCont = styled.div`
